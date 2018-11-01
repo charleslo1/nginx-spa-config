@@ -1,0 +1,2 @@
+# 开发模式需要在 /etc/hosts 增加如下配置
+127.0.0.1   local.example.com

@@ -1,0 +1,5 @@
+rewrite ^/        /index.html break;
+rewrite ^/admin   /admin.html break;
+rewrite ^/editor  /editor.html break;
+rewrite ^/view    /view.html break;
+rewrite ^.*$      /index.html break;
