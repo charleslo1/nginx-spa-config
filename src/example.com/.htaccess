@@ -1,3 +1,4 @@
+# 配置重写规则，以支持多页应用
 rewrite ^/        /index.html break;
 rewrite ^/admin   /admin.html break;
 rewrite ^/editor  /editor.html break;
